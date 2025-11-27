@@ -1,0 +1,25 @@
+[0.412s] Invoking command in '/home/shcho/ros2_ws2/src/my_first_package': PYTHONPATH=/home/shcho/ros2_ws2/build/my_first_package/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/shcho/ros2_ws2/install/my_first_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_first_package build --build-base /home/shcho/ros2_ws2/build/my_first_package/build install --record /home/shcho/ros2_ws2/build/my_first_package/install.log --single-version-externally-managed install_data
+[0.549s] running egg_info
+[0.551s] writing ../../build/my_first_package/my_first_package.egg-info/PKG-INFO
+[0.553s] writing dependency_links to ../../build/my_first_package/my_first_package.egg-info/dependency_links.txt
+[0.555s] writing entry points to ../../build/my_first_package/my_first_package.egg-info/entry_points.txt
+[0.557s] writing requirements to ../../build/my_first_package/my_first_package.egg-info/requires.txt
+[0.557s] writing top-level names to ../../build/my_first_package/my_first_package.egg-info/top_level.txt
+[0.560s] reading manifest file '../../build/my_first_package/my_first_package.egg-info/SOURCES.txt'
+[0.560s] writing manifest file '../../build/my_first_package/my_first_package.egg-info/SOURCES.txt'
+[0.560s] running build
+[0.560s] running build_py
+[0.560s] copying my_first_package/turtle_tf_broadcaster.py -> /home/shcho/ros2_ws2/build/my_first_package/build/lib/my_first_package
+[0.560s] running install
+[0.560s] running install_lib
+[0.560s] copying /home/shcho/ros2_ws2/build/my_first_package/build/lib/my_first_package/turtle_tf_broadcaster.py -> /home/shcho/ros2_ws2/install/my_first_package/lib/python3.10/site-packages/my_first_package
+[0.561s] byte-compiling /home/shcho/ros2_ws2/install/my_first_package/lib/python3.10/site-packages/my_first_package/turtle_tf_broadcaster.py to turtle_tf_broadcaster.cpython-310.pyc
+[0.561s] running install_data
+[0.561s] running install_egg_info
+[0.563s] removing '/home/shcho/ros2_ws2/install/my_first_package/lib/python3.10/site-packages/my_first_package-0.0.0-py3.10.egg-info' (and everything under it)
+[0.563s] Copying ../../build/my_first_package/my_first_package.egg-info to /home/shcho/ros2_ws2/install/my_first_package/lib/python3.10/site-packages/my_first_package-0.0.0-py3.10.egg-info
+[0.563s] running install_scripts
+[0.577s] Installing my_first_node script to /home/shcho/ros2_ws2/install/my_first_package/lib/my_first_package
+[0.577s] Installing scan_publisher script to /home/shcho/ros2_ws2/install/my_first_package/lib/my_first_package
+[0.577s] writing list of installed files to '/home/shcho/ros2_ws2/build/my_first_package/install.log'
+[0.594s] Invoked command in '/home/shcho/ros2_ws2/src/my_first_package' returned '0': PYTHONPATH=/home/shcho/ros2_ws2/build/my_first_package/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/shcho/ros2_ws2/install/my_first_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_first_package build --build-base /home/shcho/ros2_ws2/build/my_first_package/build install --record /home/shcho/ros2_ws2/build/my_first_package/install.log --single-version-externally-managed install_data

@@ -25,7 +25,8 @@ setup(
     entry_points={
         'console_scripts': [
             'my_first_node = my_first_package.my_first_node:main',
-            'scan_publisher = my_first_package.scan_publisher:main'
+            'scan_publisher = my_first_package.scan_publisher:main',
+            'turtle_tf_broadcaster = my_first_package.turtle_tf_broadcaster:main'
         ],
     },
 )
